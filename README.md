@@ -26,7 +26,7 @@ Please refer to the following procedure:
 * Create an Mbed profile
 * Create new program within the IDE program workspace
   * Choose the  NUCLEO-F303K8 development board
-* Substitute the main.cpp script
+* Substitute the main.cpp script (mbed.h is already inlcuded)
 * Continue with standard procedure to flash the SW
 
 Once the SW module has been flashed correctly to the development board, one can decide to read the values through the serRead.py script by following these steps:
