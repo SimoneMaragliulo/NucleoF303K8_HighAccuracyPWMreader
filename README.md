@@ -1,12 +1,12 @@
 # NucleoF303K8_HighAccuracyPWMreader
-2 channels high accuracy PWM acquisition module using NUCLEO-F303K8 development board
+2 channels high accuracy PWM acquisition using NUCLEO-F303K8 development board
 
 ![](/Images/Nucleo.PNG) 
 
 # Description 
 This module is capable of reading up to 2 high-frequency PWM signals and to provide the user with accurate values via the serial communication. 
 
-The SW module makes use of NUCLEO-F303K8 board general-purpose timers TIM3 and TIM15, which consist in 16-bit auto-reload counters and programmable prescalers. 
+The SW module runs on a NUCLEO-F303K8 board and makes use of general-purpose timers TIM3 and TIM15, which consist in 16-bit auto-reload counters and programmable prescalers. 
 When configured in "Input capture" mode, these timers can be used to measure the pulse length of input signals. 
 
 The module has been tested with an automotive position hall-sensor from TE connectivity delivering 1KHz PWM signal
